@@ -18,6 +18,8 @@ Vue.prototype.axios = axios;
 
 import './assets/font/iconfont.css'
 
+import './assets/css/common.css'
+
 Vue.config.productionTip = false
 
 new Vue({

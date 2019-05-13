@@ -8,6 +8,14 @@
         <div style="width: 500px;height: 500px;" id="myChart"></div>
         <p>测试elementui</p>
         <el-button type="primary">我是elementui按钮</el-button>
+        <p>测试less</p>
+        <span>
+            配置less  setting->tools->+ less-> <br>
+            Program:  .....\node_modules\.bin\lessc  <br>
+            Arguments:  $FileName$ $FileParentDir$\css\$FileNameWithoutExtension$.css --source-map  <br>
+            Output paths to refresh: $FileNameWithoutExtension$.css  <br>
+            参考： https://blog.csdn.net/weiwenwen6/article/details/79136605  <br>
+        </span>
     </div>
 </template>
 
