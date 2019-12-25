@@ -11,7 +11,7 @@ import echarts from 'echarts'
 Vue.prototype.$echarts = echarts;
 
 import axios from './config/axiosConfig'
-import baseUrl from './config/api';
+import baseUrl from '../public/apiConfig';
 Vue.prototype.api = baseUrl;
 Vue.use(axios, axios)
 Vue.prototype.axios = axios;
